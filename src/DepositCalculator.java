@@ -6,7 +6,7 @@ public class DepositCalculator {
         return round(pay, 2);
   }
 
-  double calculateSimplePercent(double amount,double rate, int period) {
+  double calculateSimplePercent(double amount, double rate, int period) {
          return round(amount+amount * rate * period, 2);
     }
 
